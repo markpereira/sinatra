@@ -1,0 +1,38 @@
+<!doctype html>
+
+  <html lang='en'>
+
+    <head>
+      <meta charset='utf-8'>
+      <title></title>
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="style.css">
+      <link href='http://fonts.googleapis.com/css?family=Nobile:400,700' rel='stylesheet' type='text/css'>
+
+    </head>
+
+    <body>
+
+      <div id='container'>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <h2><a href='/addnew'>Add a new ToDo</a></h2>
+
+        <div id='content'>
+
+        <%= yield %>
+
+        </div>
+
+
+      </div> <!-- end container -->
+
+    </body>
+
+  </html>

@@ -1,0 +1,61 @@
+body{
+  background-color: #DDD;
+  font-family: 'HelveticaNeue', sans-serif;
+}
+
+.moviename {
+  font-size: 2em;
+}
+
+#container {
+
+  width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#searchbox {
+  width: 400px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #FFF;
+  padding: 40px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+#results {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #FFF;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.posters {
+  width: 200px;
+
+
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li {
+  float:left;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,31 @@
+body {
+  background-image: url(/matika.jpg);
+
+}
+
+h1 {
+  font-family: 'Roboto Condensed';
+  font-size: 80px;
+  color: #FFF;
+  text-shadow: 2px 2px 2px #444;
+  letter-spacing: 8px;
+
+}
+
+.big {
+  font-size: 8em;
+  font-family: 'HelveticaNeue', sans-serif;
+  margin: auto;
+
+}
+.num {
+  display: inline;
+  background-color: #FFF;
+  margin-right: 40px;
+  text-align: center;
+  box-shadow: 5px 5px 2px #777;
+  padding: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}

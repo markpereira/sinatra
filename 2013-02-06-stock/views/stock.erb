@@ -1,0 +1,17 @@
+<div id='container'>
+  <div id="box">
+
+  <header>LET'S GAMBLE!</header>
+
+  <form action='/stock' method='get' autofocus>
+    <input type="text" name="name">
+    <button>search</button>
+  </form>
+
+  <div id="quote">
+    <p>The price of one share of <%= @name %> is <%= @get_price %></p>
+  </div>
+
+  </div> <!-- END BOX -->
+
+</div><!-- end container -->

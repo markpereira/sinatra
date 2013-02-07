@@ -1,0 +1,6 @@
+<div id="results">
+  <h2>Your recent searches:</h2>
+  <% @rows.each do |row| %>
+  <img class='posters' src='<%= row['poster'] %>'>
+  <% end %>
+</div>

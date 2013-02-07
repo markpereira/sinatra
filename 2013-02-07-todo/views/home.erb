@@ -1,0 +1,18 @@
+<!-- get from '/create' the list data -->
+
+
+<header>
+
+<h1> Let's do what ToDo says to do!</h1>
+
+<section>
+  <% @rows.each do |row| %>
+  <article>
+    <div id='title'>Item: <% row['title'] %></div>
+    <div id='details'>Details: <%= row['details'] %></div>
+  </article>
+
+
+
+
+</section>

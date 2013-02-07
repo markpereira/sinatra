@@ -1,0 +1,24 @@
+<h1>LET'S CALCULATE!</h1>
+
+<form action='/calc' method='get'>
+  <input type="text" name="first">
+  <input type="text" name="operator">
+  <input type="text" name="second">
+  <button>calculate!</button>
+</form>
+<br>
+<br>
+<div class='big'>
+  <div class='num'>
+    <%= @first %>
+  </div>
+  <div class='num'>
+    <%= @operator %>
+  </div>
+  <div class='num'>
+    <%= @second %>
+  </div>
+  <div class='num'>
+    <%= @result %>
+  </div>
+</p>

@@ -1,0 +1,26 @@
+
+
+#container {
+  width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+}
+#content{
+  margin-top: 60px;
+}
+
+nav li {
+  float:left;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+body{
+  font-family: Nobile, sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+
+}

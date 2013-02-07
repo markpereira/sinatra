@@ -1,0 +1,46 @@
+<!doctype html>
+  <html lang='en'>
+
+    <head>
+      <meta charset='utf-8'>
+      <title></title>
+      <!-- <link rel="stylesheet" href="normalize.css"> -->
+      <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+      <div id='container'>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/movies">Movies</a></li>
+          </ul>
+        </nav>
+
+        <div id='searchbox'>
+          <h1>UMDB</h1>
+          <p>USELESS MOVIE DATABASE</p>
+          <p>Minimally useful movie data!</p>
+          <form action='/' method='get'>
+            <input type='text' name='film' autofocus>
+            <button>find</button>
+          </form>
+
+
+
+        </div> <!-- end #searchbox -->
+
+        <%= yield %>
+
+
+
+
+      </div> <!-- end #container -->
+
+    </body>
+
+  </html>
