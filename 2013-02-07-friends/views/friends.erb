@@ -1,0 +1,19 @@
+<section>
+  <div class='top_spacer huge'>Your precious friends:</div>
+  <% @rows.each do |row| %>
+
+    <div class="friend_card">
+
+      <img id="friends_image" src="<%= row['image'] %>">
+
+      <div id='friend_info'><%= row['name'] %> is a <%= row['age'] %> year-old <%= row['gender'] %>.</div>
+
+      <div id='usernames'>
+        <p><i class="icon-chevron-right"></i>Twitter: <a href="http://twitter.com/<%= row['twitter_name'] %>"><%= row['twitter_name'] %></a><br>
+        <i class="icon-chevron-right"></i>Github : <a href="http://www.github.com/<%= row['github_name'] %>"><%= row['github_name'] %></a></p>
+      </div>
+
+    </div>
+
+  <% end %>
+</section>
