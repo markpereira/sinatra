@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+section{
+  float: left;
+  width: 200px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+img{
+  height: 190px;
+  width: 190px;
+}
+
